@@ -1,4 +1,4 @@
-# Colegio Excelencia - Landing Page
+# Escuela Fundición - Landing Page
 
 Una landing page moderna y atractiva para una escuela, inspirada en la estética del Colegio Norbridge, construida con Vite y React.
 
