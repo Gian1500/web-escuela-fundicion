@@ -1,15 +1,16 @@
 import React from 'react'
 import './Hero.css'
+// Importar la imagen para que Vite la procese correctamente
+import inicioImage from '/images/inicio.jpg'
 
 const Hero = () => {
   return (
     <section id="inicio" className="hero">
       <div className="hero-background">
-
         <div
           className="hero-image-bg"
           style={{
-            backgroundImage: `url('/public/images/inicio.jpg')`
+            backgroundImage: `url(${inicioImage})`
           }}
         >
         </div>

@@ -20,5 +20,7 @@ export default defineConfig({
       }
     }
   },
-  base: '/'
+  base: '/',
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg', '**/*.gif'],
+  publicDir: 'public'
 })
